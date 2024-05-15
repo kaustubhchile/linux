@@ -1,0 +1,5 @@
+# To see all running processes on linux
+--> ps -ef
+
+# To transfer output of a shell script file:
+--> ./script.sh > abc.txt

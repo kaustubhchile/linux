@@ -1,0 +1,38 @@
+Print list of s3 buckets
+2024-01-02 06:49:54 cf-templates-zfht4mxylvll-us-east-1
+2023-12-26 06:58:23 elasticbeanstalk-us-east-1-989855033663
+Print list of ec2 buckets
+{
+    "Reservations": []
+}
+Print list of lambda functions
+{
+    "Functions": [
+        {
+            "FunctionName": "transferdemo",
+            "FunctionArn": "arn:aws:lambda:us-east-1:989855033663:function:transferdemo",
+            "Runtime": "python3.12",
+            "Role": "arn:aws:iam::989855033663:role/lambdas3dynamo",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 522,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-12-29T10:20:59.000+0000",
+            "CodeSha256": "/ri8sdt/AKXaaLF/txZOeLyx7mVtysO3SR2HtxcwKKs=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "59d380d3-093b-4fde-9edd-dc435de65a04",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ]
+        }
+    ]
+}
+Print list of iam users
+"KaustubhDevops"
+"Nishant"
+"Nishant2"
